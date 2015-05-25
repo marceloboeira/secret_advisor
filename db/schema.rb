@@ -11,7 +11,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150512005213) do
+ActiveRecord::Schema.define(version: 20150530152429) do
+
+  create_table "advices", force: :cascade do |t|
+    t.integer  "advisor_id"
+    t.integer  "advised_id"
+    t.text     "message"
+    t.boolean  "anonymously", default: false
+    t.datetime "created_at",                  null: false
+    t.datetime "updated_at",                  null: false
+  end
 
   create_table "users", force: :cascade do |t|
     t.string   "name"
