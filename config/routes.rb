@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-
+  root 'dashboard#index'
+  
   devise_for :users,
   path: "account",
   path_names: {
@@ -11,4 +12,5 @@ Rails.application.routes.draw do
     edit: "settings"
   }
 
+  resources :dashboard
 end

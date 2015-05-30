@@ -10,6 +10,11 @@
 <h1><%= t :secret_advisor %></h1>
 <hr/>
 <%= yield %>
-
+<br>
+<br>
+<br>
+<% if signed_in? %>
+  <%= link_to "Sign out", destroy_user_session_path %>
+<% end %>
 </body>
 </html>
