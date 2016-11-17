@@ -20,7 +20,6 @@ group :development, :test do
   gem 'cucumber-rails', :require => false
   gem 'database_cleaner'
   gem 'rspec-rails', '~> 3.0'
-  gem 'shoulda-matchers'
 
   # Debug
   gem 'byebug'
