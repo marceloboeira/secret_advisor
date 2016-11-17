@@ -26,5 +26,3 @@ feature: Add hat wobble
  * **test**: Ensure Tayne retains clothing
 
 > Based on [this](http://seesparkbox.com/foundry/semantic_commit_messages).
-
- 
