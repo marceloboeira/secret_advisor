@@ -1,6 +1,16 @@
 #Secret Advisor
+> :envelope: An elegant and simple way to to send secret advices to co-workers without drawing too much attention, focused on small teams.
 
- :envelope: An elegant and simple way to to send secret advices to co-workers without drawing too much attention, focused on small teams.
+## Setup
+
+Create the `.env` file:
+
+`$ touch .env`
+
+Add the env variables to the `.env` file:
+
+`MONGODB_HOST=...` - Usually localhost or docker-host
+
 
 ## Contributing
 
