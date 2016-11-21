@@ -11,6 +11,15 @@ Add the env variables to the `.env` file:
 
 `MONGODB_HOST=...` - Usually localhost or docker-host
 
+## Showtime
+
+If you decide to use docker, you need to start mongodb with:
+
+`$ make compose`
+
+and start web-server with:
+
+`$ make start`
 
 ## Contributing
 
