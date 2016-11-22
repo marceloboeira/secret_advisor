@@ -23,7 +23,17 @@ and start web-server with:
 
 ## Contributing
 
- We have a very rigid **commit policy**, to contribute please follow these rules:
+### Running specs
+
+Make sure mongo is running, either on localhost or docker.
+
+Then run:
+
+`$ make test` or `$ make spec`
+
+### Commit Policy
+
+We have a very rigid **commit policy**, to contribute please follow these rules:
 
 ```
 feature: Add hat wobble
