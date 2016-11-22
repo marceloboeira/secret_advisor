@@ -31,6 +31,10 @@ Then run:
 
 `$ make test` or `$ make spec`
 
+You can also use Guard:
+
+`$ make guard`
+
 ### Commit Policy
 
 We have a very rigid **commit policy**, to contribute please follow these rules:

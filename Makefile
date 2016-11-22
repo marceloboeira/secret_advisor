@@ -11,6 +11,9 @@ test: rspec cucumber
 
 spec: test
 
+guard:
+	bundle exec guard
+
 compose:
 	docker-compose up -d
 
